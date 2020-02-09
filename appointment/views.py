@@ -26,8 +26,13 @@ def wizyty(request):
         form = AppointmentForm(request.POST)
         if form.is_valid():
             date = form.cleaned_data.get('date')
+            name = form.cleaned_data.get('name')
             if date.hour == 0:
-                messages.warning(request, f'Nie można wybrać tej godziny!')
+                messages.warning(request, f'Proszę wybrać godzinę.')
+                return redirect('appointment-wizyty')
+            # Checks if first name is typed correctly without any numbers etc.
+            elif name.isalpha() is not True:
+                messages.warning(request, f'Niepoprawne imię.')
                 return redirect('appointment-wizyty')
             else:
                 form.save()
