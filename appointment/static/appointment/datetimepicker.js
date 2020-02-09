@@ -9,6 +9,10 @@ var logic = function( currentDateTime ){
       minTime:'16:00', maxTime: '20:00'
     });
 };
+
+$('#id_date').keypress(function(e) {
+    e.preventDefault();
+});
 jQuery.datetimepicker.setLocale('pl');
 jQuery('#id_date').datetimepicker({
     minDate:'+1970/01/02',//yesterday is minimum date(for today use 0 or -1970/01/01)
@@ -20,5 +24,5 @@ jQuery('#id_date').datetimepicker({
     format:'d.m.Y H:i',
     defaultTime:'00:00',
   onChangeDateTime:logic,
-  onShow:logic
+  onShow:logic,
 });
