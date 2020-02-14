@@ -646,16 +646,18 @@ margin-bottom: -70px;
   background-color: lightgrey;
   color: white;
     border-color: rgb(247, 247, 247);
+ text-decoration: none;
 }
 
 .form-group{
     text-align: center;
+    padding-top: 10px;
 }
 
 .card2{
     background-color: rgb(247, 247, 247);
     border-radius: 2%;
-    padding: 124px;
+    padding: 113px;
     box-shadow: 10px 5px 10px 0px rgba(75, 75, 75, 0.39);
     margin-top: 7px;
 }
