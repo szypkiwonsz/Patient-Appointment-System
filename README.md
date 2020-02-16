@@ -21,6 +21,9 @@
 - If all fields are filled in correctly.
 - If the code provided to cancel the visit is correct.
 
+##### Sending emails:
+- To configure program to send emails go to: Patient_Appointment_System -> Patient_Appointment_System -> settings.py -> go to the bottom of the file and enter your details.
+
 ##### Packages to install:
 - pip install Django
 - pip install django-crispy-forms
