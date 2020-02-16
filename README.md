@@ -23,6 +23,7 @@
 
 ##### Sending emails:
 - To configure program to send emails go to: Patient_Appointment_System -> Patient_Appointment_System -> settings.py -> go to the bottom of the file and enter your details.
+- Change email adress in views.py on line 51.
 
 ##### Admin panel:
 - Login: szypkiwonsz
