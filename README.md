@@ -24,6 +24,10 @@
 ##### Sending emails:
 - To configure program to send emails go to: Patient_Appointment_System -> Patient_Appointment_System -> settings.py -> go to the bottom of the file and enter your details.
 
+##### Admin panel:
+- Login: szypkiwonsz
+- Password: admin
+
 ##### Packages to install:
 - pip install Django
 - pip install django-crispy-forms
