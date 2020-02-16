@@ -9,12 +9,13 @@ def random_string():
 # Create your models here.
 class Post(models.Model):
     date = models.DateTimeField()
-    name = models.CharField("Podaj swoje imię:", max_length=120)
-    email = models.EmailField("Podaj adres email:")
+    name = models.CharField("Enter your first name:", max_length=120)
+    email = models.EmailField("Enter your email adress:")
     key = models.CharField(max_length=5, default=random_string)
 
     def __str__(self):
         return self.email
 
     class Meta:
-        verbose_name_plural = 'Umówione wizyty'
+        # Name on the admin page.
+        verbose_name_plural = 'Appointments'
