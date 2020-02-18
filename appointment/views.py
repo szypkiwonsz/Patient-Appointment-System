@@ -55,9 +55,9 @@ def make_appointment(request):
                           'If you want to cancel your visit, use the form on our website.'.format(
                             DateTime.add_zero(date.hour),
                             DateTime.add_zero(date.minute),
-                            DateTime.add_zero(date.date.day),
-                            DateTime.add_zero(date.date.month),
-                            DateTime.add_zero(date.date.year))
+                            DateTime.add_zero(date.day),
+                            DateTime.add_zero(date.month),
+                            DateTime.add_zero(date.year))
                 email = EmailMessage(subject, message, to=[email])
                 email.send()
                 messages.success(request, f'You have made an appointment correctly.')
