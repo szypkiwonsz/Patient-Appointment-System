@@ -2,9 +2,11 @@
 
 #### Remember to choose the correct branch.
 
+
 #### SHORT DESCRIPTION
-master -> Only arranging visits by adding to the database.
-feat -> Registration and logging in to the patient's panel where we can book visits and see them on the website after logging in.
+#### master -> Only arranging visits by adding to the database.
+#### feat -> Registration and logging in to the patient's panel where we can book visits and see them on the website after logging in.
+
 
 ##### The program do:
 - Inserts correctly registered patient for a visit into database.
