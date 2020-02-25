@@ -6,7 +6,7 @@
 #### SHORT DESCRIPTION
 #### master -> Only arranging visits by adding to the database.
 #### feat -> Registration and logging in to the patient's panel where we can book visits and see them on the website after  
-<md-tab>logging in.
+> logging in.
 
 
 ##### The program do:
