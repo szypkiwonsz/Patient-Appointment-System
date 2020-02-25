@@ -1,5 +1,8 @@
 ### Patient appointment system build in Python, using Django framework.
 
+#### Remember to choose the correct branch.
+#### master -> 
+
 ##### The program do:
 - Inserts correctly registered patient for a visit into database.
 - Sends an email to the managing person.
